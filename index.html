@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <title>HCI ASSIGNMENT-02</title> <!--Heading Name-->
+</head> 
+<body>
+     <div class="heading.container">
+       <h1>User Information Form</h1>
+    </div>
+ <hr>  
+    <div class="container">
+ <form>
+  
+  <table> 
+    <tr>
+     <td> Full Name :</td>
+       <td><input type="text" id="name" name="name" required></td>
+    </tr>
+    
+    <tr>
+     <td>Birthdate:</td>
+     <td><input type="date" id="birthdate" name="birthdate" required></td>
+    </tr>
+   
+    <tr>
+    
+     <td colspan="2">
+       <fieldset>
+       <legend> Gender </legend>
+       <input type="radio" name="gender" value="male"> Male
+       <input type="radio" name="gender" value="female"> Female
+       </fieldset>
+     </td>
+       
+    </tr>
+    
+    <tr>
+     <td colspan="2">
+     <fieldset>
+     <legend> Hobbies</legend>
+      <input type="checkbox" id="reading" name="hobbies" value="reading"> Reading
+      <input type="checkbox" id="sports" name="hobbies" value="sports"> Sports
+      <input type="checkbox" id="music" name="hobbies" value="music"> Music
+     </fieldset>
+     </td>
+    </tr>
+
+    <tr>
+        <div class="image-container">
+        <img src="pic2.jpg.avif">
+        </div>
+    </tr>
+    
+    <tr>
+     <td> Pets :</td>
+     <td>
+      <select id="pets" name="pets">
+      <option value="Cat">Cat</option>
+      <option value="Dog">Dog</option>
+      <option value="Rabbit">Rabbit</option>
+      <option value="other">Other</option>
+      </select>
+     </td>
+    </tr>
+    
+    <tr>
+     <td>Thoughts:</td>
+      <td><textarea id="comments" name="comments" rows="4"></textarea></td>
+    </tr>
+    
+    <tr>
+     <td colspan="2">
+      <button type="submit">Submit</button>
+     </td>
+    </tr>
+    </table>
+</html>
